@@ -4,14 +4,14 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/xamarin
 
 pool:
-  vmImage: 'macOS 10.13'
+  vmImage: 'macOS 10.14.0'
 
 steps:
 # To manually select a Xamarin SDK version on the Hosted macOS agent, enable this script with the SDK version you want to target
 # https://go.microsoft.com/fwlink/?linkid=871629
-- script: sudo $AGENT_HOMEDIRECTORY/scripts/select-xamarin-sdk.sh 5_4_1 
+- script: sudo $AGENT_HOMEDIRECTORY/scripts/select-xamarin-sdk.sh 12_0_0_15
   displayName: 'Select Xamarin SDK version'
-  enabled: false
+  enabled: true
 
 - task: NuGetToolInstaller@0
 
