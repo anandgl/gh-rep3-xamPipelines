@@ -2,8 +2,7 @@
 # Build a Xamarin.Android and Xamarin.iOS app.
 # Add steps that test, sign, and distribute the app, save build artifacts, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/xamarin
-[![Build Status](https://dev.azure.com/godfreyanandan/Leslie-poc1/_apis/build/status/anandgl.gh-rep3-xamPipelines)](https://dev.azure.com/godfreyanandan/Leslie-poc1/_build/latest?definitionId=3)
-
+# test
 jobs:
 
 - job: Android
