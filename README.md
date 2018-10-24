@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/godfreyanandan/Leslie-poc1/_apis/build/status/anandgl.gh-rep3-xamPipelines)](https://dev.azure.com/godfreyanandan/Leslie-poc1/_build/latest?definitionId=3)
 
 # Contributing
 
