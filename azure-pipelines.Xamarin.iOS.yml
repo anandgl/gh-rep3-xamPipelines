@@ -12,7 +12,8 @@ steps:
 - script: sudo $AGENT_HOMEDIRECTORY/scripts/select-xamarin-sdk.sh 12_0_0_15
   displayName: 'Select Xamarin SDK version'
   enabled: true
-
+- script: echo inside IosYaml
+- script: uname -a 
 - task: NuGetToolInstaller@0
 
 - task: NuGetCommand@2
